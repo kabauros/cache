@@ -26,6 +26,7 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-autoconfigure:2.5.1")
 	implementation("org.springframework.data:spring-data-redis:2.3.1.RELEASE")
 	implementation("redis.clients:jedis:3.3.0")
+	implementation("com.google.code.gson:gson:2.8.5")
 	runtimeOnly("com.h2database:h2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
