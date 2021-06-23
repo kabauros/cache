@@ -1,0 +1,4 @@
+redis-cluster:
+  image: grokzen/redis-cluster:5.0.3
+  ports:
+  - "7000:7000"
